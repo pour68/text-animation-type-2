@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 7rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 span {
+    transition: 1.5s;
+}
+
+h2:hover span {
+    filter: blur(15px);
+    opacity: 0;
+    transform: scale(2);
+}
